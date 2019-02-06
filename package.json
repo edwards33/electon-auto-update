@@ -1,0 +1,28 @@
+{
+  "name": "electron-auto-update",
+  "version": "1.0.0",
+  "description": "Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "build -l --win",
+    "ship": "build -l --win -p always"
+  },
+  "repository": "https://github.com/edwards33/electon-auto-update.git",
+  "keywords": [
+    "Electron",
+    "auto",
+    "update",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Edward",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "electron-builder": "^20.38.5"
+  },
+  "dependencies": {
+    "electron-updater": "^4.0.6"
+  }
+}
