@@ -1,4 +1,4 @@
-# electron-quick-start
+# electron-auto-update
 
 ## App Auto Update
 
