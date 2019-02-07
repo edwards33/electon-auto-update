@@ -2,7 +2,7 @@
 
 ## App Auto Update
 
-It checked under Ubuntu linux. Before run the project Register your Github repo and make changes in package.json file providing link to your repository. Do not forget to add electron-builder.yml file into your project with following info:
+It is checked under Ubuntu linux. Before run the project Register your Github repo and make changes in package.json file providing link to your repository. Do not forget to add electron-builder.yml file into your project with following info:
 * appId
 * provider
 * token (if your provider ids Github then generate the token in Github)
