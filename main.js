@@ -36,5 +36,7 @@ autoUpdater.on('update-downloaded', (info) => {
 })
 
 ipcMain.on("quitAndInstall", (event, arg) => {
-    autoUpdater.quitAndInstall()
+  setTimeout(() => {
+    autoUpdater.quitAndInstall();
+  }, 6000)
 })
